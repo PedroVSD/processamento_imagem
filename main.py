@@ -1,6 +1,11 @@
-def main():
-    print("Hello from processamento-imagem!")
+"""Run ``pathoshift`` from the repository root without installing the package."""
 
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent / "src"))
+
+from pathoshift.cli import main  # noqa: E402
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())

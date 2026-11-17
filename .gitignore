@@ -8,3 +8,20 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Datasets (never commit images or official packages)
+data/
+CRC-VAL-HE-7K/
+*.tif
+*.tiff
+*.svs
+*.ndpi
+
+# Experiment artifacts
+outputs/
+models/
+*.joblib
+*.zip
+
+# Notebooks
+.ipynb_checkpoints/

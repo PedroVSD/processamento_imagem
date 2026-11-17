@@ -1,0 +1,26 @@
+# PathoShift-CRC baseline configuration.
+#
+# Every run must be reproducible from this file plus the seed below.
+seed: 42
+
+data:
+  # official tiles are 224x224; keep the native resolution
+  image_size: 224
+  color_space: hsv
+
+features:
+  hist_bins: 16
+  include_quality: true
+
+model:
+  kind: logreg
+  C: 1.0
+  max_iter: 2000
+  n_estimators: 300
+
+predict:
+  batch_size: 64
+
+# Research question (to be answered in the report):
+#   Does stain/colour normalisation before the classifier reduce the macro-F1
+#   drop under the colour/brightness perturbation of robustness.csv?

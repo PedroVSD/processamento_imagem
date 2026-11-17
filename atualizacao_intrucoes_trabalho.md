@@ -45,12 +45,12 @@ O aproveitamento não transfere automaticamente uma nota anterior: a avaliação
 ## 6. Pergunta de investigação
 Cada grupo deverá formular uma pergunta simples e mensurável. Exemplos:
 
-A normalização de cor melhora a classificação em imagens com coloração alterada?
-Qual espaço de cor separa melhor determinadas classes de tecido?
-Filtrar imagens desfocadas melhora a qualidade média das predições?
-O método continua funcionando após compressão ou ruído moderado?
-Aumentação de cor é mais robusta que normalização de cor?
-A hipótese não precisa ser confirmada. Um resultado negativo bem medido e interpretado é um resultado válido.
+- A normalização de cor melhora a classificação em imagens com coloração alterada?
+- Qual espaço de cor separa melhor determinadas classes de tecido?
+- Filtrar imagens desfocadas melhora a qualidade média das predições?
+- O método continua funcionando após compressão ou ruído moderado?
+- Aumentação de cor é mais robusta que normalização de cor?
+- A hipótese não precisa ser confirmada. Um resultado negativo bem medido e interpretado é um resultado válido.
 
 ## 7. Avaliação
 | Critério                                             | Peso sugerido |
